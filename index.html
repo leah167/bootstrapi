@@ -12,22 +12,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <div class="api-section">
+    <div class="card" style="width: 18rem;">
+        <img id="doggo" class="card-img-top">
+     <div class="card-body">
+      <div class="api-section">
         <h1>
             Part 1: Random Dog Generator
         </h1>
+        
+        <button type="button" class="btn btn-info" id="doggoButton">Fetch!</button>
         <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+            
         </div>
+      </div>
+     </div>
     </div>
 
     <div class="api-section">
         <h1>
             Part 2: Weather App
         </h1>
+        <label for="city" class="form-label">Enter City Name:</label>
+        <input type="text" id="cityInput" class="form-control" placeholder="City">
+        <button type="button" class="btn btn-primary" id="getWeatherButton">Submit</button>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <!-- [INSERT WEATHER APP HERE] -->
+        </div>
+        <div id="temperature">
+            <h3>Temperature</h3>
+        </div>
+        <div id="wind">
+            <h3>Wind</h3>
+        </div>
+        <div id="description">
+            <h3>Description</h3>
         </div>
     </div>
 
